@@ -1,0 +1,49 @@
+{
+  "name": "data-analysis-spec",
+  "version": "0.3.0",
+  "description": "数据分析任务 Spec（V1.1）与可安装 Agent Skills：接收→清洗→指标→多维分析→报告归档",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "agent-skills",
+    "skills",
+    "data-analysis",
+    "spec",
+    "eda",
+    "statistics",
+    "cursor",
+    "claude-code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangLaoShi/data-analysis-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WangLaoShi/data-analysis-spec/issues"
+  },
+  "homepage": "https://github.com/WangLaoShi/data-analysis-spec#readme",
+  "files": [
+    "skills",
+    "docs",
+    "scripts",
+    "fixtures",
+    "LICENSE",
+    "README.md",
+    "AGENTS.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "scaffold": "node scripts/scaffold-deliverables.mjs",
+    "backup": "node scripts/backup-raw.mjs",
+    "intake": "node scripts/intake-check.mjs",
+    "profile": "node scripts/profile-csv.mjs",
+    "cleaning-log": "node scripts/render-cleaning-log.mjs",
+    "check:metrics": "node scripts/check-metric-dictionary.mjs",
+    "validate:delivery": "node scripts/validate-delivery.mjs",
+    "validate:skills": "node scripts/validate-skills.mjs",
+    "list:skills": "node scripts/list-skills.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

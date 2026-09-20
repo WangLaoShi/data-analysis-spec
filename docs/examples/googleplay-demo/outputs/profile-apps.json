@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "file": "/Users/luosen/Documents/GitHub/data-analysis-spec/fixtures/googleplaystore.csv",
+  "headers": [
+    "App",
+    "Category",
+    "Rating",
+    "Reviews",
+    "Size",
+    "Installs",
+    "Type",
+    "Price",
+    "Content Rating",
+    "Genres",
+    "Last Updated",
+    "Current Ver",
+    "Android Ver"
+  ],
+  "profiledRows": 10841,
+  "totalLinesApprox": 10841,
+  "truncated": false,
+  "delimiter": ",",
+  "encodingNote": "utf8",
+  "missing": [
+    {
+      "field": "App",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Category",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Rating",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Reviews",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Size",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Installs",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Type",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Price",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Content Rating",
+      "missing": 1,
+      "rate": 0.000092
+    },
+    {
+      "field": "Genres",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Last Updated",
+      "missing": 0,
+      "rate": 0
+    },
+    {
+      "field": "Current Ver",
+      "missing": 1,
+      "rate": 0.000092
+    },
+    {
+      "field": "Android Ver",
+      "missing": 1,
+      "rate": 0.000092
+    }
+  ],
+  "duplicates": {
+    "keyFields": [
+      "App"
+    ],
+    "uniqueKeys": 9660,
+    "duplicateGroups": 798,
+    "duplicateRows": 1979,
+    "duplicateRowRate": 0.182548
+  },
+  "numeric": [
+    {
+      "field": "Rating",
+      "count": 9367,
+      "nonNumeric": 1474,
+      "min": 1,
+      "p25": 4,
+      "median": 4.3,
+      "p75": 4.5,
+      "max": 19,
+      "zeros": 0,
+      "negatives": 0
+    },
+    {
+      "field": "Reviews",
+      "count": 10840,
+      "nonNumeric": 1,
+      "min": 0,
+      "p25": 38,
+      "median": 2094,
+      "p75": 54768,
+      "max": 78158306,
+      "zeros": 596,
+      "negatives": 0
+    },
+    {
+      "field": "Price",
+      "count": 10040,
+      "nonNumeric": 801,
+      "min": 0,
+      "p25": 0,
+      "median": 0,
+      "p75": 0,
+      "max": 0,
+      "zeros": 10040,
+      "negatives": 0
+    }
+  ],
+  "futureDates": [],
+  "blankRowCount": 0
+}

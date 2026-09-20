@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.3 — 2026-09-20
+
+- 新增课堂文档 `使用方法.md`（安装 Skills + 分阶段操作 + Google Play 实跑输出）
+- 新增 `fixtures/googleplaystore*.csv` 与 `docs/examples/googleplay-demo/` 对照材料
+
 ## 0.3.2 — 2026-09-20
 
 - 重新发布：0.3.1 在 npm 暂存未上线，以 0.3.2 正式发布修正后的对外文案

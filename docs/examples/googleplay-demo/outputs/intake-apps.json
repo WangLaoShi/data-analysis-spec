@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "verdict": "pass",
+  "blocking": [],
+  "warnings": [],
+  "meta": {
+    "path": "/Users/luosen/Documents/GitHub/data-analysis-spec/fixtures/googleplaystore.csv",
+    "size": 1360155,
+    "mtime": "2026-07-10T12:40:17.143Z",
+    "sha256": "3e438f48161961933d26e99a8d9fc8ed79edfaa9fb34f8838e1ab4ec7a9fab91",
+    "encodingNote": "utf8",
+    "delimiter": ",",
+    "headerCount": 13,
+    "dataRows": 10841,
+    "profiledRows": 10841,
+    "truncated": false
+  },
+  "columns": [
+    "App",
+    "Category",
+    "Rating",
+    "Reviews",
+    "Size",
+    "Installs",
+    "Type",
+    "Price",
+    "Content Rating",
+    "Genres",
+    "Last Updated",
+    "Current Ver",
+    "Android Ver"
+  ],
+  "dateCoverage": {
+    "min": "2010-05-20",
+    "max": "2018-08-07",
+    "parsedRows": 10840
+  },
+  "suggestedBackupName": "原始数据_未处理_20260920.csv"
+}

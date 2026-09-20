@@ -5,6 +5,7 @@
 - 分析规范：[docs/spec-data-analysis.md](./docs/spec-data-analysis.md)
 - 过程模板：[docs/templates/](./docs/templates/)
 - 流程示例：[docs/examples/walkthrough-q3-sales.md](./docs/examples/walkthrough-q3-sales.md)
+- **课堂使用方法（含 Google Play 实跑）：** [使用方法.md](./使用方法.md)
 
 ## 安装
 

@@ -4,9 +4,9 @@
 
 ## 仓库定位
 
-- **主规范**：`docs/spec-data-analysis.md`（当前 V1.1）  
-- **模板**：`docs/templates/00`–`10`  
-- **可安装单元**：`skills/*/SKILL.md`  
+- 规范文档：`docs/spec-data-analysis.md`
+- 模板：`docs/templates/00`–`10`
+- 可安装单元：`skills/*/SKILL.md`
 
 ```bash
 npx skills add WangLaoShi/data-analysis-spec

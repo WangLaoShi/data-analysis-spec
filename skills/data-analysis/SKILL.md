@@ -1,19 +1,19 @@
 ---
 name: data-analysis
 description: >-
-  按 data-analysis-spec V1.1 执行完整业务数据分析：接收→结构化→清洗→衍生→拆解→指标→多维分析→可视化→结论→建议→报告→归档。
-  在用户说「按 Spec 做数据分析」「业务专题分析」「销售/运营复盘」「出完整分析报告」或启动整套分析流程时使用。
+  按 data-analysis-spec 执行完整业务数据分析：接收→结构化→清洗→衍生→拆解→指标→多维分析→可视化→结论→建议→报告→归档。
+  在用户说「按规范做数据分析」「业务专题分析」「销售/运营复盘」「出完整分析报告」或启动整套分析流程时使用。
 license: MIT
 metadata:
   author: WangLaoShi
-  version: "0.2.0"
+  version: "0.3.0"
   category: data-analysis
-  spec: "V1.1"
+  spec: "1.1"
 ---
 
-# 数据分析任务 Spec（总控）V1.1
+# 数据分析总控
 
-按主规范跑通闭环。原文：`docs/spec-data-analysis.md`。过程模板：`docs/templates/`。
+按仓库分析规范跑通闭环。规范原文：`docs/spec-data-analysis.md`；过程模板：`docs/templates/`。
 
 ## 阶段调度（按序）
 

@@ -1,7 +1,7 @@
-# 数据分析任务 Spec｜版本 V1.1
+# 数据分析规范
 
-> 本文档是数据分析项目的**唯一主规范**。需求变更时：先改本文档 → 再同步对应 Agent Skill → 再开展分析。  
-> 配套可安装技能见仓库 `skills/`；安装：`npx skills add WangLaoShi/data-analysis-spec`。
+> 本文档约定业务专题分析的执行流程。需求变更时先改本文档，再同步对应 skill，再开展分析。  
+> 配套技能见仓库 `skills/`；安装：`npx skills add WangLaoShi/data-analysis-spec`。
 
 | 项 | 内容 |
 |----|------|
@@ -562,4 +562,4 @@ npx skills add WangLaoShi/data-analysis-spec --skill data-analysis
 | V1.1 | 2026-09-20 | 增加 DoD、命名目录、角色、Skill 映射、术语表；各阶段关联模板与常见坑 |
 
 维护人：【填写姓名/团队】  
-变更流程：改 Spec → 同步 `skills/` 与 `docs/templates/` → 更新 README 技能表 →（可选）打 git tag `spec-v1.x`
+变更流程：改本文档 → 同步 `skills/` 与 `docs/templates/` → 更新 README 技能表 →（可选）打 git tag `spec-v1.x`

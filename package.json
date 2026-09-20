@@ -1,6 +1,6 @@
 {
   "name": "data-analysis-spec",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "可安装的数据分析 Agent Skills：从数据接收、清洗、指标到多维分析与报告归档",
   "license": "MIT",
   "type": "module",
